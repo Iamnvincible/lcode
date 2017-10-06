@@ -17,15 +17,10 @@ class TwoSum:
         #         break
         # return ret
 
-        dic={}
-        for i in range(len(nums)):
-            gap=target-nums[i]
+        dic = {}
+        for i, val in enumerate(nums):
+            gap = target - val
             if gap in dic:
-                return [dic[gap],i]
+                return [dic[gap], i]
             else:
-                dic[nums[i]]=i
-
-t = TwoSum()
-l = t.twoSum([2, 5, 5, 11], 10)
-#if(1 == 1 and 1 == 1):
-print(l)
+                dic[nums[i]] = i

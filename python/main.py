@@ -1,3 +1,11 @@
-dict3 = {'name':'z','Age':7,'class':'First'};
-print("Value : ",dict3.__contains__('name'))
-print("Value : ",dict3.__contains__('sex'))
+import TwoSum as ts
+
+
+def test():
+    t = ts.TwoSum()
+    l = t.twoSum([2, 5, 5, 11], 10)
+    print(l)
+
+
+if __name__ == '__main__':
+    test()
