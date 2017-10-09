@@ -1,4 +1,4 @@
-import RemoveDuplicate as rd
+import RemoveDuplicates2 as rd
 
 
 def test():
@@ -6,7 +6,7 @@ def test():
     testing new solution
     '''
     r = rd.RemoveDuplicates()
-    x = r.removeDuplicates([1, 1, 1, 2, 2, 3, 4, 5, 6, 7, 7])
+    x = r.removeDuplicates([1, 2, 2])
     print(x)
 
 

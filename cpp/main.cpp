@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     Rmdup r;
-    vector<int> v={1,1,1,1,1,2,2,2,3,4,5};
+    vector<int> v={1,1,1};
     int n=r.removeDuplicates(v);
     printf("%d\n",n);
 }
