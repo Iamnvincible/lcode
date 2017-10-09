@@ -6,13 +6,13 @@
     "c-cpp-flylint.run": "onType", // 此选项貌似不起作用 
     "c-cpp-flylint.clang.includePaths": [
         "${workspaceRoot}",
-        "G:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++",
-        "G:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32",
-        "G:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward",
-        "G:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.1.0/include",
-        "G:/Program Files/llvm/include",
-        "G:/Program Files/llvm/x86_64-w64-mingw32/include",
-        "G:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"
+        "C:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++",
+        "C:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32",
+        "C:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward",
+        "C:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.1.0/include",
+        "C:/Program Files/llvm/include",
+        "C:/Program Files/llvm/x86_64-w64-mingw32/include",
+        "C:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"
     ],
     "c-cpp-flylint.clang.defines": [
         "_DEBUG",

@@ -1,10 +1,13 @@
-import TwoSum as ts
+import RemoveDuplicate as rd
 
 
 def test():
-    t = ts.TwoSum()
-    l = t.twoSum([2, 5, 5, 11], 10)
-    print(l)
+    '''
+    testing new solution
+    '''
+    r = rd.RemoveDuplicates()
+    x = r.removeDuplicates([1, 1, 1, 2, 2, 3, 4, 5, 6, 7, 7])
+    print(x)
 
 
 if __name__ == '__main__':

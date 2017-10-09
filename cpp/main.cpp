@@ -1,12 +1,11 @@
-#include "1_TwoSum.h"
-#include "removeDuplicates.h"
+#include "removeDuplicates2.h"
 #include <iostream>
 #include <vector>
 using namespace std;
 int main()
 {
     Rmdup r;
-    vector<int> v={1,1,2,3,4,4,4,5,5,6,7};
+    vector<int> v={1,1,1,1,1,2,2,2,3,4,5};
     int n=r.removeDuplicates(v);
     printf("%d\n",n);
 }
